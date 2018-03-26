@@ -1,0 +1,23 @@
+units {
+  unit1 {
+    locationHash = 'aS223SDfcs22300gopWWA'
+    students {
+      student1 {
+        efficiencyRate = 0.76
+        tutor {
+          firstName = "James"
+          lastName = "Bond"
+          flags = [
+              '03-01-2008': "Interview report",
+              '03-01-2009': "First drill report"
+          ]
+        }
+      }
+      student2 {
+        efficiencyRate = 0.54
+      }
+      // More students
+    }
+  }
+  // More units
+}
